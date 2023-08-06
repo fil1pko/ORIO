@@ -1,6 +1,29 @@
 @import 'colors.scss';
 
-nav{
+header{
+    width: 100%;
+    padding-top: 73px;
     position: fixed;
-    top: 0;
+    nav{
+        display: flex;
+        img{
+            max-width: 107px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    color: $white;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
+
+// active class for links styling
+.active{
+    text-shadow: 0px 0px 5.849999904632568px #FFF, 0px 0px 11.699999809265137px #FFF, 0px 0px 40.95000076293945px #FFF, 0px 0px 81.9000015258789px#FFF, 0px 0px 140.39999389648438px #FFF, 0px 0px 245.6999969482422px #FFF;
+}   
