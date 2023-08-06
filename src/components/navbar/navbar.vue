@@ -3,11 +3,11 @@
         <nav>
       <!-- left menu side -->
       <ul>
-        <span><hr class="long"></span>
+        <div class="long"></div>
         <li><a @click="scrollToSection('home')" :class="{ 'active': activeSection === 'home' }">Domov</a></li>
-        <span><hr class="short"></span>
+        <div class="short"></div>
         <li><a @click="scrollToSection('about')" :class="{ 'active': activeSection === 'about' }">O nás</a></li>
-        <span><hr class="long"></span>
+        <div class="long"></div>
       </ul>
   
       <!-- logo/middle part -->
@@ -15,11 +15,11 @@
   
       <!-- right menu side -->
       <ul>
-        <span><hr class="long"></span>
+        <div class="long"></div>
         <li><a @click="scrollToSection('services')" :class="{ 'active': activeSection === 'services' }">Služby</a></li>
-        <span><hr class="short"></span>
+        <div class="short"></div>
         <li><a @click="scrollToSection('contact')" :class="{ 'active': activeSection === 'contact' }">Kontak</a></li>
-        <span><hr class="long"></span>
+        <div class="long"></div>
       </ul>
     </nav>
     </header>

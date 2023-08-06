@@ -11,13 +11,22 @@ header{
         }
         ul{
             display: flex;
+            align-items: center;
             list-style: none;
             li{
                 a{
-                    color: $white;
-                    text-decoration: none;
-                    cursor: pointer;
+                    @include navbartext;
                 }
+            }
+            div{
+                background: $white;
+                height: 1px;
+            }
+            .long{
+                width: 160px;
+            }
+            .short{
+                width: 57px;
             }
         }
     }
