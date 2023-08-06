@@ -4,10 +4,14 @@ header{
     width: 100%;
     padding-top: 73px;
     position: fixed;
+    display: flex;
+    justify-content: center;
     nav{
         display: flex;
+        width: 1623px;
         img{
             max-width: 107px;
+            margin: 0px 69px 0px 69px;
         }
         ul{
             display: flex;
