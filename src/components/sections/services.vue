@@ -13,26 +13,26 @@
 
             <div class="card">
                 <div class="card-heading">
-                    <h3></h3>
-                    <i></i>
+                    <img src="../../assets/pictures/site.svg" alt="site icon">
+                    <h3>Sieťová infraštruktúra</h3>
                 </div>
-                <p></p>                
+                <p>Cieľom našej spoločnosti je zabezpečiť dodávku počítačovej siete komplexne, metalickú, optickú, bezdrôtovú. To znamená od návrhu sieťového riešenia, dodávky a realizácie, až po samotnú správu siete</p>                
             </div>
 
             <div class="card">
                 <div class="card-heading">
-                    <h3></h3>
-                    <i></i>
+                    <img src="../../assets/pictures/camera.svg" alt="camera icon">
+                    <h3 style="font-size: 17px;">Kamerové a monitorovacie systémy</h3>
                 </div>
-                <p></p>                
+                <p>Na základe požiadaviek zákazníka a našich skúseností sme schopní pripraviť najvhodnejší návrh kamerového riešenia monitorovania podľa potrieb a špecifikácie s možnosťou rozšírenia zabezpečovacieho systému v budúcnosti. V našej ponuke nájdete širokú paletu monitorovacích a zabezpečovacích zariadení. </p>                
             </div>
 
             <div class="card">
                 <div class="card-heading">
-                    <h3></h3>
-                    <i></i>
+                    <img src="../../assets/pictures/cloud-solid2.svg" alt="cloud icon">
+                    <h3>Smart city</h3>
                 </div>
-                <p></p>                
+                <p>Integračná smart platforma pre mestá a obce, ktoré chcú byť inovatívne.</p>                
             </div>
 
         </div>

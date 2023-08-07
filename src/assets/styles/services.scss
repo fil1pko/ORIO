@@ -12,29 +12,41 @@
         max-height: 100vh;
     }
     .card-wraper{
-        width: 1586px;
+        width: 82.604vw;
         position: relative;
         display: flex;
-        gap: 103px;
+        justify-content: center;
+        gap: 5.365vw;
         margin: 0 auto;
         .card{
             position: relative;
-            width: 322px;
-            height: 468px;
+            width: 16.771vw;
+            height: 24.375vw;
             background: $textBGdark;
             box-shadow: $defaultBoxShadow;
             .card-heading{
-                // display: flex;
-                // gap: 16px;
+                padding-top: 3.073vw;
+                padding-bottom: 2.292vw;
+                height: 3.125vw;
+                display: flex;
+                align-items: center;
+                gap: 0.833vw;
+                margin: 0 auto;
                 img{
-                    width: 35px;
-                    height: 45px;
+                    width: 1.823vw;
+                    height: auto;
+                    position: static;
                 }
-                width: 254px;
+                width: 13.542vw;
+                h3{
+                    @include cardheading;
+                }
             }
             p{
+                margin: 0 auto;
                 @include text;
-                max-width: 252px;
+                max-width: 13.125vw;
+                text-align: center;
             }
         }
     }

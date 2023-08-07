@@ -25,25 +25,6 @@
     </header>
 </template>
   
-<!-- <script>
-  export default {
-    data() {
-      return {
-        activeSection: 'home',
-      };
-    },
-    methods: {
-      scrollToSection(sectionId) {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-          this.activeSection = sectionId;
-        }
-      },
-    },
-  };
-</script> -->
-
 <script>
 export default {
   data() {

@@ -21,17 +21,17 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
     color: $white;
     text-decoration: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     white-space: nowrap;
-    margin: 0px 47px 0px 47px;
+    margin: 0vw 2.448vw 0vw 2.448vw;
 }
 
 // all main p 
 @mixin text {
-    font-size: 15px;
+    font-size: 0.781vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -39,7 +39,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // about h2
 @mixin about {
-    font-size: 32px;
+    font-size: 1.667vw;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -47,7 +47,15 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // home h1
 @mixin home {
-    font-size: 40px;
+    font-size: 2.083vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+// card heading
+@mixin cardheading {
+    font-size: 0.938vw;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

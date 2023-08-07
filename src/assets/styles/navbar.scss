@@ -9,10 +9,10 @@ header{
     z-index: 100;
     nav{
         display: flex;
-        width: 1623px;
+        width: 84.531vw;
         img{
-            max-width: 107px;
-            margin: 0px 69px 0px 69px;
+            max-width: 5.573vw;
+            margin: 0px 3.594vw 0px 3.594vw;
         }
         ul{
             display: flex;
@@ -25,13 +25,13 @@ header{
             }
             div{
                 background: $white;
-                height: 1px;
+                height: 0.052vw;
             }
             .long{
-                width: 160px;
+                width: 8.333vw;
             }
             .short{
-                width: 57px;
+                width: 2.969vw;
             }
         }
     }
@@ -40,4 +40,5 @@ header{
 // active class for links styling
 .active{
     text-shadow: 0px 0px 5.849999904632568px #FFF, 0px 0px 11.699999809265137px #FFF, 0px 0px 40.95000076293945px #FFF, 0px 0px 81.9000015258789px#FFF, 0px 0px 140.39999389648438px #FFF, 0px 0px 245.6999969482422px #FFF;
+    transition: text-shadow 0.5s ease-in-out;
 }   
