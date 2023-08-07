@@ -5,6 +5,7 @@
     position: relative;
     z-index: -1;
     display: flex;
+    align-items: center;
     img{
         position: absolute;
         width: 100%;
@@ -15,6 +16,7 @@
         position: relative;
         display: flex;
         gap: 103px;
+        margin: 0 auto;
         .card{
             position: relative;
             width: 322px;
@@ -22,8 +24,11 @@
             background: $textBGdark;
             box-shadow: $defaultBoxShadow;
             .card-heading{
+                // display: flex;
+                // gap: 16px;
                 img{
                     width: 35px;
+                    height: 45px;
                 }
                 width: 254px;
             }

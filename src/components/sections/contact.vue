@@ -1,5 +1,5 @@
 <template>
-    <div id="contact">
+    <div style="height: 390px;" id="contact">
         <h1>contact</h1>
     </div>
 </template>

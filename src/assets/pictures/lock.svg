@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+<svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_58_356)">
+<path d="M11.25 11.25V15H23.75V11.25C23.75 7.79688 20.9531 5 17.5 5C14.0469 5 11.25 7.79688 11.25 11.25ZM6.25 15V11.25C6.25 5.03906 11.2891 0 17.5 0C23.7109 0 28.75 5.03906 28.75 11.25V15H30C32.7578 15 35 17.2422 35 20V35C35 37.7578 32.7578 40 30 40H5C2.24219 40 0 37.7578 0 35V20C0 17.2422 2.24219 15 5 15H6.25Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_58_356">
+<rect width="35" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>
