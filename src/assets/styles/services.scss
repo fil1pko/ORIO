@@ -2,4 +2,36 @@
 
 #services{
     background: $defaultGradient;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    img{
+        position: absolute;
+        width: 100%;
+        max-height: 100vh;
+    }
+    .card-wraper{
+        width: 1586px;
+        position: relative;
+        display: flex;
+        gap: 103px;
+        .card{
+            position: relative;
+            width: 322px;
+            height: 468px;
+            background: $textBGdark;
+            box-shadow: $defaultBoxShadow;
+            .card-heading{
+                img{
+                    width: 35px;
+                }
+                width: 254px;
+            }
+            p{
+                @include text;
+                max-width: 252px;
+            }
+        }
+    }
+
 }

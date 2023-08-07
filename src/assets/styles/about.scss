@@ -2,4 +2,24 @@
 
 #about{
     background: $defaultGradient2;
+    .about-wraper{
+        width: 1017px;
+        article{
+            background: $textBGdark;
+            box-shadow: $defaultBoxShadow;
+            height: 230px;
+            width: 642px;
+            h2{
+                @include about;
+            }
+            p{
+                @include text;
+            }
+        }
+        .certificates-wraper{
+            background: $textBGlight;
+            font-size: 20px;
+            font-style: italic;
+        }
+    }
 }

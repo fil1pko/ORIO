@@ -2,4 +2,16 @@
 
 #home{
     background: $defaultGradient;
+    article{
+        background: $textBGdark;
+        box-shadow: $defaultBoxShadow;
+        width: 551px;
+        height: 322px;
+        h1{
+            @include home;
+        }
+        p{
+            @include text;
+        }
+    }
 }   

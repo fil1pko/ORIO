@@ -18,7 +18,7 @@
         <div class="long"></div>
         <li><a @click="scrollToSection('services')" :class="{ 'active': activeSection === 'services' }">Služby</a></li>
         <div class="short"></div>
-        <li><a @click="scrollToSection('contact')" :class="{ 'active': activeSection === 'contact' }">Kontak</a></li>
+        <li><a @click="scrollToSection('contact')" :class="{ 'active': activeSection === 'contact' }">Kontakt</a></li>
         <div class="long"></div>
       </ul>
     </nav>
