@@ -1,7 +1,7 @@
 <template>
     <section id="about">
 
-        <!-- <img src="../../assets/pictures/EllipseAbout1.svg" alt="elipse"> -->
+        <img src="../../assets/pictures/EllipseAbout.svg" alt="elipse">
 
         <div class="about-wraper">
 
@@ -23,8 +23,6 @@
             </div>
 
         </div>
-
-       <!-- <img src="../../assets/pictures/EllipseAbout2.svg" alt="elipse2"> -->
 
     </section>
 </template>

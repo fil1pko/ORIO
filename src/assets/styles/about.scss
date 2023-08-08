@@ -2,15 +2,27 @@
 
 #about{
     background: $defaultGradient2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        position: absolute;
+        top: 13.354vw;
+        z-index: 5;
+    }
     .about-wraper{
         width: 1017px;
+        z-index: 10;
         article{
             background: $textBGdark;
             box-shadow: $defaultBoxShadow;
-            height: 230px;
-            width: 642px;
+            height: 11.979vw;
+            width: 33.438vw;
+            padding: 1.771vw;
             h2{
                 @include about;
+                padding-bottom: 0.833vw;
             }
             p{
                 @include text;
@@ -18,8 +30,12 @@
         }
         .certificates-wraper{
             background: $textBGlight;
-            font-size: 20px;
+            font-size: 1.042vw;
             font-style: italic;
+            font-weight: 400;
+            box-shadow: $defaultBoxShadow;
+            width: 45.625vw;
+            height: 17.24vw;
         }
     }
 }
