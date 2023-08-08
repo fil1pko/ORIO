@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 70px;
+        top: 3.646vw;
         article{
             background: $textBGdark;
             box-shadow: $defaultBoxShadow;
@@ -17,29 +17,29 @@
             height: 16.771vw;
             z-index: 80;
             position: relative;
-            left: 309px;
-            padding: 38px;
+            left: 16.094vw;
+            padding: 1.979vw;
             h1{
                 @include home;
-                margin-left: 20px
+                margin-left: 1.042vw;
             }
             p{
                 @include text;
-                padding-bottom: 35px;
-                padding-top: 10px;
-                margin-left: 20px;
+                padding-bottom: 1.823vw;
+                padding-top: 0.521vw;
+                margin-left: 1.042vw;
             }
             a{
                 color: $white;
                 text-decoration: none;
-                border: 1px solid $white;
-                padding: 7px 16px 7px 16px;
-                margin-left: 20px;
+                border: 0.052vw solid $white;
+                padding: 0.365vw 0.833vw 0.365vw 0.833vw;
+                margin-left: 1.042vw;
             }
         }
         .img{
             position: relative;
-            right: 280px;
+            right: 14.583vw;
             z-index: 30;
         }
     }

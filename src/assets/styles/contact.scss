@@ -8,34 +8,34 @@
     .last{
         width: 100%;
         position: absolute;
-        bottom: 10px;
+        bottom: 0.521vw;
         display: flex;
         justify-content: center;
         p{
-            font-size: 13px;
+            font-size: 0.677vw;
             font-weight: 300;
             a{
                 color: $white;
                 text-decoration: none;
-                font-size: 13px;
+                font-size: 0.677vw;
                 font-weight: 400;
             }
         }
     }
     .contact-wraper{
-        max-width: 1050px;
+        max-width: 54.688vw;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding-top: 72px;
+        padding-top: 3.75vw;
         img{
-            margin-right: 10px;
+            margin-right: 0.521vw;
         }
         ul{
             list-style: none;
-            padding-top: 16px;
+            padding-top: 0.833vw;
             li{
-                margin-bottom: 20px;
+                margin-bottom: 1.042vw;
                 a{
                     display: flex;
                     align-items: center;
@@ -47,23 +47,23 @@
         }
         h4{
             @include footerHeading;
-            padding-bottom: 13px;
+            padding-bottom: 0.677vw;
         }
         .longer{
-            width: 530px;
+            width: 27.604vw;
             @include divHR;
         }
         .shorter{
-            width: 400px;
+            width: 20.833vw;
             @include divHR;
         }
         .information-wraper{
             display: flex;
-            padding-top: 16px;
-            gap: 72px;
+            padding-top: 0.833vw;
+            gap: 3.75vw;
             p{
                 display: flex;
-                margin-bottom: 20px;
+                margin-bottom: 1.042vw;
             }
         }
     }
