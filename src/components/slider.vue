@@ -1,28 +1,28 @@
 <template>
     <swiper
-      :spaceBetween="30"
+      :spaceBetween="0"
       :centeredSlides="false"
       :autoplay="{
-        delay: 2500,
-        disableOnInteraction: true,
+        delay: 3500,
+        disableOnInteraction: false,
       }"
       :pagination="{
-        clickable: false,
+        clickable: true,
       }"
       :navigation="false"
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
-      <swiper-slide>Slide 4</swiper-slide>
-      <swiper-slide>Slide 9</swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras1.jpg" alt="camera photo"></swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras2.jpg" alt="camera photo"></swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras3.jpg" alt="camera photo"></swiper-slide>
     </swiper>
   </template>
   <script>
     // Import Swiper Vue.js components
     import { Swiper, SwiperSlide } from 'swiper/vue';
-  
+    // import SwiperCore, { Autoplay } from 'swiper';
+
     // Import Swiper styles
     import 'swiper/css';
   
@@ -31,7 +31,7 @@
   
     // import required modules
     import { Autoplay} from 'swiper/modules';
-  
+
     export default {
       components: {
         Swiper,

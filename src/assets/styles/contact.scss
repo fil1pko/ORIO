@@ -1,1 +1,24 @@
 @import 'colors.scss';
+
+#contact{
+    width: 100%;
+    height: 390px;
+    background: $darkBlue;
+    .contact-wraper{
+        max-width: 1050px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        h4{
+            @include footerHeading;
+        }
+        .longer{
+            width: 530px;
+            @include divHR;
+        }
+        .shorter{
+            width: 400px;
+            @include divHR;
+        }
+    }
+}

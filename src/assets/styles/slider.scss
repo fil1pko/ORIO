@@ -1,6 +1,14 @@
 .mySwiper{
-    height: 605px;
-    width: 1050px;
+    height: 31.51vw;
+    width: 50.688vw;
+    z-index: 20;
+    position: relative;
+    right: 100px;
+    img{
+        position: static;
+        width: 50.688vw;
+        height: 31.51vw;
+    }
 }
 .swiper-button-next{
     display: none;

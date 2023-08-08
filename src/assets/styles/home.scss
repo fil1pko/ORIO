@@ -2,16 +2,45 @@
 
 #home{
     background: $defaultGradient;
-    article{
-        background: $textBGdark;
-        box-shadow: $defaultBoxShadow;
-        width: 551px;
-        height: 322px;
-        h1{
-            @include home;
+    .home-wraper{
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 70px;
+        article{
+            background: $textBGdark;
+            box-shadow: $defaultBoxShadow;
+            width: 551px;
+            height: 322px;
+            z-index: 80;
+            position: relative;
+            left: 309px;
+            padding: 38px;
+            h1{
+                @include home;
+                margin-left: 20px
+            }
+            p{
+                @include text;
+                padding-bottom: 35px;
+                padding-top: 10px;
+                margin-left: 20px;
+            }
+            a{
+                color: $white;
+                text-decoration: none;
+                border: 1px solid $white;
+                padding: 7px 16px 7px 16px;
+                margin-left: 20px;
+            }
         }
-        p{
-            @include text;
+        .img{
+            position: relative;
+            right: 280px;
+            z-index: 30;
         }
     }
 }   

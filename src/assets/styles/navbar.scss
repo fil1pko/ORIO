@@ -24,8 +24,7 @@ header{
                 }
             }
             div{
-                background: $white;
-                height: 0.052vw;
+                @include divHR;
             }
             .long{
                 width: 8.333vw;

@@ -54,10 +54,11 @@
                 padding-top: 0.99vw;
                 position: relative;
                 top: 0.885vw;
-                img{
+                .certificate{
                     position: static;
                     width: 157px;
                     height: 226px;
+                    cursor: pointer;
                 }
             }
         }
