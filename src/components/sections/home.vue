@@ -1,4 +1,5 @@
 <script>
+    import slider from '../slider.vue';
     export default {
         components: {
             slider 

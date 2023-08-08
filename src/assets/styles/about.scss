@@ -10,11 +10,16 @@
         position: absolute;
         top: 13.354vw;
         z-index: 5;
+        width: 100%;
     }
     .about-wraper{
-        width: 1017px;
+        width: 52.969vw;
         z-index: 10;
+        position: relative;
+        left: 1.042vw;
         article{
+            position: relative;
+            left: 1.042vw;
             background: $textBGdark;
             box-shadow: $defaultBoxShadow;
             height: 11.979vw;
@@ -30,12 +35,31 @@
         }
         .certificates-wraper{
             background: $textBGlight;
-            font-size: 1.042vw;
-            font-style: italic;
-            font-weight: 400;
             box-shadow: $defaultBoxShadow;
             width: 45.625vw;
             height: 17.24vw;
+            position: relative;
+            left: 9.375vw;
+            top: 1.927vw;
+            h3{
+                @include abouth3;
+                position: relative;
+                top: 0.833vw;
+                left: 1.875vw;
+            }
+            .certificates{
+                display: flex;
+                gap: 2.917vw;
+                justify-content: center;
+                padding-top: 0.99vw;
+                position: relative;
+                top: 0.885vw;
+                img{
+                    position: static;
+                    width: 157px;
+                    height: 226px;
+                }
+            }
         }
     }
 }

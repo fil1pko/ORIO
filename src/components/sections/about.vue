@@ -15,10 +15,10 @@
             <div class="certificates-wraper">
                 <h3>Kto sme?</h3>
                 <div class="certificates">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="../../assets/pictures/certificate.png" alt="name of certificate">
+                    <img src="../../assets/pictures/certificate.png" alt="name of certificate">
+                    <img src="../../assets/pictures/certificate.png" alt="name of certificate">
+                    <img src="../../assets/pictures/certificate.png" alt="name of certificate">
                 </div>
             </div>
 

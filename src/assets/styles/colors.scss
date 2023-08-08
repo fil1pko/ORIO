@@ -60,3 +60,10 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
     font-weight: 600;
     line-height: normal;
 }
+
+// about h3
+@mixin abouth3 {
+    font-size: 1.042vw;
+    font-style: italic;
+    font-weight: 400;
+}
