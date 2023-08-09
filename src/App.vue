@@ -21,27 +21,8 @@ import { VuePreloader } from 'vue-preloader'
   <footer>
     <contact />
   </footer>
+</template>
 
-  <VuePreloader
-  background-color="#091a28"
-  color="#ffffff"
-  transition-type="fade-up"
-  :loading-speed="25"
-  :transition-speed="1400"
-  @loading-is-over="showAnimation = false"
-  @transition-is-over="transitionIsOver"
->
-  <template v-slot="{ percent, color }">
-    <transition name="loading-animation" mode="in-out" />  
-      <span
-        v-if="showAnimation"
-        :style="{ color }"
-      >
-        {{ percent }}
-      </span>
-    <!-- </transition> -->
-  </template>
-</VuePreloader>
 
 <style lang="scss">
   @import './assets/base.scss';

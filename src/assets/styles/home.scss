@@ -30,6 +30,7 @@
                 margin-left: 1.042vw;
             }
             a{
+                @include text;
                 color: $white;
                 text-decoration: none;
                 border: 0.052vw solid $white;
