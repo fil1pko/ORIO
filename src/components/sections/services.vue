@@ -22,7 +22,7 @@
             <div class="card">
                 <div class="card-heading">
                     <img src="../../assets/pictures/camera.svg" alt="camera icon">
-                    <h3 style="font-size: 17px;">Kamerové a monitorovacie systémy</h3>
+                    <h3 style="font-size: 0.885vw;">Kamerové a monitorovacie systémy</h3>
                 </div>
                 <p>Na základe požiadaviek zákazníka a našich skúseností sme schopní pripraviť najvhodnejší návrh kamerového riešenia monitorovania podľa potrieb a špecifikácie s možnosťou rozšírenia zabezpečovacieho systému v budúcnosti. V našej ponuke nájdete širokú paletu monitorovacích a zabezpečovacích zariadení. </p>                
             </div>
