@@ -81,3 +81,40 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
     background: $white;
     height: 0.052vw;
 }
+
+
+
+// mixins for tablet
+
+@mixin navbartextTB{
+    font-size: 1.918vw;
+}
+
+@mixin textTB{
+    font-weight: 400;
+    font-size: 1.559vw;
+}
+
+@mixin aboutTB{
+    font-size: 3.597vw;
+}
+
+@mixin homeTB{
+    font-size: 3.837vw;
+}
+
+@mixin cardheadingTB{
+    font-size: 1.799vw !important;
+}
+
+@mixin abouth3TB{
+    font-size: 2.398vw;
+}
+
+@mixin footerHeadingTB{
+    font-size: 2.398vw !important;
+}
+
+@mixin divHRTB{
+    font-size: 0.12vw;
+}

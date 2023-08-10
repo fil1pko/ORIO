@@ -11,6 +11,10 @@
         width: 100%;
         max-height: 100vh;
     }
+    .card-wraper2{
+        display: flex;
+        gap: 5.365vw;
+    }
     .card-wraper{
         width: 82.604vw;
         position: relative;
@@ -41,6 +45,10 @@
                 h3{
                     @include cardheading;
                 }
+                .ll{
+                    font-size: 0.885vw;
+                }
+             
             }
             p{
                 margin: 0 auto;
@@ -51,4 +59,37 @@
         }
     }
 
+}
+ 
+@media screen and (max-width: 1025px){
+    #services{
+        .card-wraper2{
+            display: block;
+        }
+        .card-wraper{
+            width: 69.185vw;
+            .card{
+                margin-top: 7.554vw;
+                width: 29.616vw;
+                height: 43.046vw;
+                .card-heading{
+                    width: 26.499vw;
+                    h3{
+                        @include cardheadingTB;
+                    }
+                    .ll{
+                        @include cardheadingTB;
+                    }
+                    img{
+                        width: 3.717vw;
+                        height: auto;
+                    }
+                }
+                p{
+                    max-width: 26.499vw;
+                    font-size: 1.559vw;
+                }
+            }
+        }
+    }
 }

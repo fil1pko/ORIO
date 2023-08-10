@@ -1,9 +1,7 @@
 <template>
     <div class="page-loader" v-if="!isloaded">
-      <div class="cube"></div>
-      <div class="cube"></div>
-      <div class="cube"></div>
-      <div class="cube"></div>
+        <div class="loading-circle">
+        </div>
     </div> 
   </template>
   
@@ -25,10 +23,7 @@
   </script>
   
   <style lang="scss" scoped>
-     $colors: #8CC271, #69BEEB, #F5AA39, #E9643B;
-  
-    // -----------------------------------------------------
-  
+  @import '../assets/styles/colors.scss';
     .page-loader {
       display: flex;
       justify-content: center;
@@ -38,49 +33,20 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: #333;
+      background: $defaultGradient;
       z-index: 999;
     }
-  
-    // -----------------------------------------------------
-  
-    .cube{
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-  
-      @for $i from 1 through length($colors) {
-        &:nth-child(#{$i}) {
-          background-color: nth($colors, $i);
-        }
-      }
-  
-      &:first-child {
-        animation: left 1s infinite;
-      }
-  
-      &:last-child {
-        animation: right 1s infinite .5s;
-      }
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
-  
-    // -----------------------------------------------------
-  
-    @keyframes left {
-      40% {
-        transform: translateX(-60px);
-      }
-      50% {
-        transform: translateX(0);      
-      }
-    }
-  
-    @keyframes right {
-      40% {
-        transform: translateX(60px);
-      }
-      50% {
-        transform: translateX(0);
-      }
+
+    .loading-circle {
+      border: 6px solid rgba(255, 255, 255, 0.3);
+      border-top: 6px solid #fff;
+      border-radius: 50%;
+      width: 6.813vw;
+      height: 6.813vw;
+      animation: rotate 1s linear infinite;
     }
   </style>

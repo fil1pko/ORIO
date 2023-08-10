@@ -6,6 +6,7 @@ import about from './components/sections/about.vue'
 import contact from './components/sections/contact.vue'
 import PageLoader from './components/PageLoader.vue'
 
+
 </script>
 
 <template>

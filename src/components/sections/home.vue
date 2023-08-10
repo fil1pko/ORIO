@@ -19,16 +19,14 @@
                 <p>Spoločnosť, ktorá spája skúsenosti z oblasti dodávok komunikačných IT riešení spolu s novými flexi riešeniami pre bezpečnosť správu IT riešení pre mestá a obce.</p>
                 <!-- button to services -->
                 <a href="#services">Naše služby</a>
+
+                <!-- <button @click="changeLanguage('en')">English</button> -->
+                <!-- <button @click="changeLanguage('es')">Español</button> -->
             </article>
 
             <!-- imagine slider component -->
             <slider />
             <div><img class="img" src="../../assets/pictures/arrow.svg" alt="arrow icon"></div>
-
-            <select name="lang" v-model="lang">
-                <option value="czech">CZ</option>
-                <option value="english">EN</option>
-            </select>
         </div>
     </section>
 </template>
