@@ -18,8 +18,8 @@
                         <img src="../../assets/pictures/phone.svg" alt="phone icon">{{ $t('phone2') }}</a></li>
                     </ul>
                     <ul>
-                        <li><a href=""><img src="../../assets/pictures/email.svg" alt="">{{ $t('gmail') }}</a></li>
-                        <li><a href=""><img src="../../assets/pictures/instagram.svg" alt="">{{ $t('instagram') }}</a></li>
+                        <li><a href="#"><img src="../../assets/pictures/email.svg" alt="">{{ $t('gmail') }}</a></li>
+                        <li><a href="#"><img src="../../assets/pictures/instagram.svg" alt="">{{ $t('instagram') }}</a></li>
                         <li><a href=""><img src="../../assets/pictures/facebook.svg" alt=""> {{ $t('facebook') }}</a></li>
                     </ul>
                 </div>
