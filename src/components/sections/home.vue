@@ -24,6 +24,11 @@
             <!-- imagine slider component -->
             <slider />
             <div><img class="img" src="../../assets/pictures/arrow.svg" alt="arrow icon"></div>
+
+            <select name="lang" v-model="lang">
+                <option value="czech">CZ</option>
+                <option value="english">EN</option>
+            </select>
         </div>
     </section>
 </template>
