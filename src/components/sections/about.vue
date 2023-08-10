@@ -6,13 +6,13 @@
         <div class="about-wraper">
             <!-- about text article -->
             <article>
-                <h2>O nás</h2>
-                <p>Sme spoločnosťou, ktorá vie poradiť a pomôcť pri návrhu, realizácií Vašich IT riešení. Čerpáme zo skúsenosti, ktoré sme zozbierali od našich partnerov a ponúkame Vám ich.</p>
+                <h2>{{ $t('h2') }}</h2>
+                <p>{{ $t('pabout') }}</p>
             </article>
 
             <!-- certificates -->
             <div class="certificates-wraper">
-                <h3>Kto sme?</h3>
+                <h3>{{ $t('question') }}</h3>
                 <div class="certificates">
 
                     <a target="_blank" href="../../../public/certificate.png"><img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>

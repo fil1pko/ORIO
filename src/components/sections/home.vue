@@ -5,6 +5,11 @@
         components: {
             slider 
         },
+        methods: {
+        switchLanguage(locale) {
+            this.$i18n.locale = locale;
+        }
+    }
     };
 </script>
 
@@ -14,14 +19,14 @@
             <!-- home article -->
             <article>
                 <!-- main site heading -->
-                <h1>ORION-trust</h1>
+                <h1>{{ $t('h1') }}</h1>
                 <!-- text -->
-                <p>Spoločnosť, ktorá spája skúsenosti z oblasti dodávok komunikačných IT riešení spolu s novými flexi riešeniami pre bezpečnosť správu IT riešení pre mestá a obce.</p>
+                <p>{{ $t('phome') }}</p>
                 <!-- button to services -->
-                <a href="#services">Naše služby</a>
+                <a href="#services">{{ $t('buttonhome') }}</a>
 
-                <!-- <button @click="changeLanguage('en')">English</button> -->
-                <!-- <button @click="changeLanguage('es')">Español</button> -->
+                <button @click="switchLanguage('en')">English</button>
+                <button @click="switchLanguage('cz')">Česky</button>
             </article>
 
             <!-- imagine slider component -->

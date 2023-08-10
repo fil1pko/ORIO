@@ -4,9 +4,9 @@
       <!-- left menu side -->
       <ul>
         <div class="long"></div>
-        <li><a @click="scrollToSection('home')" :class="{ 'navLink active': activeSection === 'home' }">Domov</a></li>
+        <li><a @click="scrollToSection('home')" :class="{ 'navLink active': activeSection === 'home' }">{{ $t('home') }}</a></li>
         <div class="short"></div>
-        <li><a @click="scrollToSection('about')" :class="{ 'navLink active': activeSection === 'about' }">O nás</a></li>
+        <li><a @click="scrollToSection('about')" :class="{ 'navLink active': activeSection === 'about' }">{{ $t('about') }}</a></li>
         <div class="long"></div>
       </ul>
   
@@ -16,9 +16,9 @@
       <!-- right menu side -->
       <ul>
         <div class="long"></div>
-        <li><a @click="scrollToSection('services')" :class="{ 'navLink active': activeSection === 'services' }">Služby</a></li>
+        <li><a @click="scrollToSection('services')" :class="{ 'navLink active': activeSection === 'services' }">{{ $t('services') }}</a></li>
         <div class="short"></div>
-        <li><a @click="scrollToSection('contact')" :class="{ 'navLink active': activeSection === 'contact' }">Kontakt</a></li>
+        <li><a @click="scrollToSection('contact')" :class="{ 'navLink active': activeSection === 'contact' }">{{ $t('contact') }}</a></li>
         <div class="long"></div>
       </ul>
     </nav>
