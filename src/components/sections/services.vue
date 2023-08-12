@@ -1,14 +1,19 @@
 <template>
     <section id="services">
         <img src="../../assets/pictures/Group6.svg" alt="elipses">
+        <!-- card wrapers -->
         <div class="card-wraper">
-
             <div class="card-wraper2">
+
+                <!-- card -->
                 <div class="card">
+                    <!-- card heading container -->
                     <div class="card-heading">
+                        <!-- heading and icon -->
                         <img src="../../assets/pictures/lock.svg" alt="lock icon">
                         <h3>{{ $t('card1h') }}</h3>
                     </div>
+                    <!-- card content -->
                     <p>{{ $t('card1t') }}</p>                
                 </div>
 
