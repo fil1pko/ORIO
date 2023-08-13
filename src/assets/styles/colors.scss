@@ -21,7 +21,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
     color: $white;
     text-decoration: none;
     cursor: pointer;
-    font-size: 0.938vw;
+    font-size: clamp(0.875rem,0.938vw,2.2511875rem);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -79,7 +79,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 // lines
 @mixin divHR {
     background: $white;
-    height: 0.052vw;
+    height: clamp(0.0625rem,0.052vw,0.1248125rem);
 }
 
 

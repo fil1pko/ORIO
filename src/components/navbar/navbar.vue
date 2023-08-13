@@ -1,13 +1,14 @@
 <template>
     <header>
-        <nav>
+      <img class="img-tb" src="../../assets/pictures/logo.svg" alt="logo">
+      <nav>
       <!-- left menu side -->
       <ul>
         <div class="long"></div>
         <li><a @click="scrollToSection('home')" :class="{ 'navLink active': activeSection === 'home' }">{{ $t('home') }}</a></li>
         <div class="short"></div>
         <li><a @click="scrollToSection('about')" :class="{ 'navLink active': activeSection === 'about' }">{{ $t('about') }}</a></li>
-        <div class="long"></div>
+        <div class="long none"></div>
       </ul>
   
       <!-- logo/middle part -->
@@ -15,13 +16,15 @@
   
       <!-- right menu side -->
       <ul>
-        <div class="long"></div>
+        <div class="long none"></div>
         <li><a @click="scrollToSection('services')" :class="{ 'navLink active': activeSection === 'services' }">{{ $t('services') }}</a></li>
         <div class="short"></div>
         <li><a @click="scrollToSection('contact')" :class="{ 'navLink active': activeSection === 'contact' }">{{ $t('contact') }}</a></li>
         <div class="long"></div>
       </ul>
     </nav>
+    <button><img src="../../assets/pictures/" alt="open"></button>
+    <button><img src="" alt="close"></button>
     </header>
 </template>
   
@@ -65,7 +68,6 @@ export default {
 </script>
 
 <style lang="scss">
-    // default styling imports
     @import '../../assets/styles/colors.scss';
     @import '../../assets/styles/navbar.scss';
 </style>

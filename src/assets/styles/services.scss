@@ -73,6 +73,9 @@
                 height: 43.046vw;
                 .card-heading{
                     width: 26.499vw;
+                    // margin-top: 2.638vw;
+                    padding-top: 5vw;
+                    padding-bottom: 4vw;
                     img{
                         width: 3.717vw;
                         height: auto;
@@ -87,7 +90,7 @@
 }
 
 // mobile
-@media screen and (max-width: 450px){
+@media screen and (max-width: 660px){
     .card-wraper{
         flex-direction: column;
         justify-content: center;
@@ -96,6 +99,11 @@
             flex-direction: column;
             .card{
                 margin: 0 auto;
+                width: 66.250vw !important;
+                height: 96.563vw !important;
+                p{
+                    max-width: 60.313vw !important;
+                }
             }
         }
     }
