@@ -9,10 +9,17 @@
   font-weight: normal;
 }
 
+
 html{
   scroll-behavior: smooth;
   background: $lightBlue;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  // overflow-y: scroll;
+
+  // overflow: scroll;   
+  -webkit-overflow-scrolling: touch;   
+  overflow-y: auto;   
 }
 
 body {
@@ -22,6 +29,7 @@ body {
   line-height: normal;
   font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   section{

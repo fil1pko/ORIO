@@ -37,7 +37,7 @@
 
                 <div class="card">
                     <div class="card-heading">
-                        <img src="../../assets/pictures/cloud-solid2.svg" alt="cloud icon`">
+                        <img src="../../assets/pictures/cloud-solid.svg" alt="cloud icon`">
                         <h3>{{ $t('card4h') }}</h3>
                     </div>
                     <p>{{ $t('card4t') }}</p>                

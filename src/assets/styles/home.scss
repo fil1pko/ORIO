@@ -46,4 +46,11 @@
             height: auto;
         }
     }
+    .button-wraper{
+        button{
+            color: $white;
+            background: none;
+            border: 1px solid $white;
+        }
+    }
 }   
