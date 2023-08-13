@@ -10,6 +10,12 @@ header{
     .img-tb{
         display: none;
     }
+    button{
+        display: none;
+        z-index: 101;
+        background: none;
+        border: none;
+    }
     nav{
         display: flex;
         width: 84.531vw;
@@ -45,6 +51,7 @@ header{
     transition: text-shadow 0.5s ease-in-out;
 } 
 
+// tablet
 @media screen and (max-width: 1025px){
     .short{
         display: none !important;
@@ -60,6 +67,7 @@ header{
             width: 10.791vw;
             height: auto;
         }
+
         nav{
             width: 72.302vw !important;
             gap: 2.638vw;
@@ -71,4 +79,39 @@ header{
             }
         }
     }
+}
+
+// mobile
+@media screen and (max-width: 660px){
+    .long{
+        display: none;
+    }
+    .open{
+        display: block !important;
+    }
+    header{
+        padding: 0;
+        justify-content: flex-end;
+        .img-tb{
+            position: fixed;
+            left: 0;
+            width: 16.563vw;
+        }
+        nav{
+            flex-direction: column;
+            position: fixed;
+            right: 0;
+            background: $darkBlue;
+            width: 58.438vw;
+            height: 100vh;
+            display: none;
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.your-class-name {
+   display: block !important;
 }

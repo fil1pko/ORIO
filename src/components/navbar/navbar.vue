@@ -1,7 +1,7 @@
 <template>
     <header>
       <img class="img-tb" src="../../assets/pictures/logo.svg" alt="logo">
-      <nav>
+      <nav :class="{ 'your-class-name': isClassAdded }">
       <!-- left menu side -->
       <ul>
         <div class="long"></div>
@@ -23,8 +23,12 @@
         <div class="long"></div>
       </ul>
     </nav>
-    <button><img src="../../assets/pictures/" alt="open"></button>
-    <button><img src="" alt="close"></button>
+
+    <!-- hamburger button -->
+    <button @click="toggleIcon" class="open">
+      <img v-if="!isClassAdded" src="../../assets/pictures/open.svg" alt="open">
+      <img v-else src="../../assets/pictures/close.svg" alt="close">
+    </button>
     </header>
 </template>
   
@@ -33,9 +37,13 @@ export default {
   data() {
     return {
       activeSection: 'home',
+      isClassAdded: false
     };
   },
   methods: {
+    toggleIcon() {
+      this.isClassAdded = !this.isClassAdded;
+    },
     scrollToSection(sectionId) {
       const element = document.getElementById(sectionId);
       if (element) {
