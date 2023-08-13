@@ -24,14 +24,16 @@
                 <p>{{ $t('phome') }}</p>
                 <!-- button to services -->
                 <a href="#services">{{ $t('buttonhome') }}</a>
-
-                <button @click="switchLanguage('en')">English</button>
-                <button @click="switchLanguage('cz')">Česky</button>
             </article>
 
             <!-- imagine slider component -->
             <slider />
             <div><img class="img" src="../../assets/pictures/arrow.svg" alt="arrow icon"></div>
+
+            <div class="button-wraper">
+                <button @click="switchLanguage('en')">EN</button>
+                <button @click="switchLanguage('cz')">CZ</button>
+            </div>
         </div>
     </section>
 </template>

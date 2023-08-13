@@ -31,7 +31,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // all main p 
 @mixin text {
-    font-size: 0.781vw;
+    font-size: clamp(0.625rem,0.781vw,1.8744rem);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -39,7 +39,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // about h2
 @mixin about {
-    font-size: 1.667vw;
+    font-size: clamp(1rem,1.667vw,4.0008125rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -47,7 +47,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // home h1
 @mixin home {
-    font-size: 2.083vw;
+    font-size: clamp(1rem,2.083vw,4.9991875rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -55,7 +55,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // card heading
 @mixin cardheading {
-    font-size: 0.938vw;
+    font-size: clamp(0.75rem ,0.938vw,2.2511875rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -63,14 +63,14 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // about h3
 @mixin abouth3 {
-    font-size: 1.042vw;
+    font-size: clamp(0.6875rem,1.042vw,2.5008125rem);
     font-style: italic;
     font-weight: 400;
 }
 
 // footer h4
 @mixin footerHeading {
-    font-size: 1.25vw;
+    font-size: clamp(0.9375rem,1.25vw,3rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -86,35 +86,35 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // mixins for tablet
 
-@mixin navbartextTB{
-    font-size: 1.918vw;
-}
+// @mixin navbartextTB{
+//     font-size: 1.918vw;
+// }
 
-@mixin textTB{
-    font-weight: 400;
-    font-size: 1.559vw;
-}
+// @mixin textTB{
+//     font-weight: 400;
+//     font-size: 1.559vw;
+// }
 
-@mixin aboutTB{
-    font-size: 3.597vw;
-}
+// @mixin aboutTB{
+//     font-size: 3.597vw;
+// }
 
-@mixin homeTB{
-    font-size: 3.837vw;
-}
+// @mixin homeTB{
+//     font-size: 3.837vw;
+// }
 
-@mixin cardheadingTB{
-    font-size: 1.799vw !important;
-}
+// @mixin cardheadingTB{
+//     font-size: 1.799vw !important;
+// }
 
-@mixin abouth3TB{
-    font-size: 2.398vw;
-}
+// @mixin abouth3TB{
+//     font-size: 2.398vw;
+// }
 
-@mixin footerHeadingTB{
-    font-size: 2.398vw !important;
-}
+// @mixin footerHeadingTB{
+//     font-size: 2.398vw !important;
+// }
 
-@mixin divHRTB{
-    font-size: 0.12vw;
-}
+// @mixin divHRTB{
+//     font-size: 0.12vw;
+// }
