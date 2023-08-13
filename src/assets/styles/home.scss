@@ -36,6 +36,11 @@
                 border: 0.052vw solid $white;
                 padding: 0.365vw 0.833vw 0.365vw 0.833vw;
                 margin-left: 1.042vw;
+                &:hover{
+                    color: $grey;
+                    border: 1px solid $grey;
+                    transition: 0.2s;
+                }
             }
         }
         .img{
@@ -47,10 +52,24 @@
         }
     }
     .button-wraper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        right: 10px;
         button{
+            // position: relative;
             color: $white;
             background: none;
+            font-weight: bold;
             border: 1px solid $white;
+            width: 40px;
+            height: 40px;
+            &:hover{
+                color: $grey;
+                border: 1px solid $grey;
+                transition: 0.2s;
+            }
         }
     }
 }   
