@@ -3,7 +3,7 @@
  * ORION-trust
  * Copyright (c) 2023 RU3Y
  * This code is licensed under the MIT License.
- * Visit https://opensource.org/licenses/MIT for license details.
+ * Visit https://github.com/fil1pko/ORION-trust for license details.
  */
     // importing and exporting slider
     import slider from '../slider.vue';
