@@ -5,14 +5,21 @@
     .home-wraper{
         height: 100vh;
         margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         position: relative;
         top: 3.646vw;
         article{
             background: $textBGdark;
-            box-shadow: $defaultBoxShadow;
+            -webkit-box-shadow: $defaultBoxShadow;
+                    box-shadow: $defaultBoxShadow;
             width: 28.698vw;
             height: 16.771vw;
             z-index: 80;
@@ -39,6 +46,8 @@
                 &:hover{
                     color: $grey;
                     border: 1px solid $grey;
+                    -webkit-transition: 0.2s;
+                    -o-transition: 0.2s;
                     transition: 0.2s;
                 }
             }
@@ -52,8 +61,13 @@
         }
     }
     .button-wraper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         gap: 0.521vw;
         position: fixed;
         right: 0.521vw;
@@ -71,6 +85,8 @@
             &:hover{
                 color: $grey;
                 border: 1px solid $grey;
+                -webkit-transition: 0.2s;
+                -o-transition: 0.2s;
                 transition: 0.2s;
             }
         }
@@ -81,8 +97,13 @@
     .home-wraper{
         width: 100vw;
         top: 10vw !important;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         article{
             width: 72.662vw !important;
             height: clamp(10.438rem,34.412vw,22.024rem) !important;

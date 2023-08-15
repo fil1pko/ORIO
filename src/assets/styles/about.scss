@@ -3,9 +3,15 @@
 #about{
     background: $defaultGradient2;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     img{
         position: absolute;
         top: 13.354vw;
@@ -21,7 +27,8 @@
             position: relative;
             left: 1.042vw;
             background: $textBGdark;
-            box-shadow: $defaultBoxShadow;
+            -webkit-box-shadow: $defaultBoxShadow;
+                    box-shadow: $defaultBoxShadow;
             height: 11.979vw;
             width: 33.438vw;
             padding: 1.771vw;
@@ -35,7 +42,8 @@
         }
         .certificates-wraper{
             background: $textBGlight;
-            box-shadow: $defaultBoxShadow;
+            -webkit-box-shadow: $defaultBoxShadow;
+                    box-shadow: $defaultBoxShadow;
             width: 45.625vw;
             height: 17.24vw;
             position: relative;
@@ -48,9 +56,13 @@
                 left: 1.875vw;
             }
             .certificates{
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 gap: 2.917vw;
-                justify-content: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 padding-top: 0.99vw;
                 position: relative;
                 top: 0.885vw;
@@ -61,6 +73,8 @@
                     cursor: pointer;
                 }
                 div{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
                     gap: 2.917vw;
                 }
@@ -96,7 +110,10 @@
                     gap: 9.592vw;
                     padding-top: 3vw;
                     div{
-                        flex-direction: column;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
                         gap: 6.835vw;
                     }
                     .certificate{

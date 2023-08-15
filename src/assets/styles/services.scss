@@ -4,22 +4,32 @@
     background: $defaultGradient;
     position: relative;
     z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     img{
         position: absolute;
         width: 100%;
         max-height: 100vh;
     }
     .card-wraper2{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         gap: 5.365vw;
     }
     .card-wraper{
         width: 82.604vw;
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         gap: 5.365vw;
         margin: 0 auto;
         .card{
@@ -27,13 +37,18 @@
             width: 16.771vw;
             height: 24.375vw;
             background: $textBGdark;
-            box-shadow: $defaultBoxShadow;
+            -webkit-box-shadow: $defaultBoxShadow;
+                    box-shadow: $defaultBoxShadow;
             .card-heading{
                 padding-top: 3.073vw;
                 padding-bottom: 3vw;
                 height: 3.125vw;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 gap: 0.833vw;
                 margin: 0 auto;
                 img{
@@ -92,12 +107,22 @@
 // mobile
 @media screen and (max-width: 660px){
     .card-wraper{
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         padding-bottom: 15vw !important;
         .card-wraper2{
+            display: -webkit-box !important;
+            display: -ms-flexbox !important;
             display: flex !important;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             .card{
                 margin: 0 auto;
                 width: 66.250vw !important;
@@ -108,7 +133,10 @@
                 .card-heading{
                     width: 100% !important;
                     height: auto;
-                    flex-direction: column;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                            flex-direction: column;
                     text-align: center;
                     position: relative;
                     top: 10vw;
