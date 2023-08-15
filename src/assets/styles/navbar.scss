@@ -88,13 +88,17 @@ header{
     }
     .open{
         display: block !important;
+        position: fixed;
+        right: 30px;
+        top: 34px;
     }
     header{
         padding: 0;
-        justify-content: flex-end;
+        justify-content: space-between;
         .img-tb{
-            position: fixed;
-            left: 0;
+            position: relative;
+            left: 30px;
+            top: 20px;
             width: 16.563vw;
         }
         nav{
@@ -103,9 +107,11 @@ header{
             right: 0;
             background: $darkBlue;
             width: 58.438vw;
-            height: 100vh;
+            height: 100vh ;
             display: none;
             ul{
+                position: relative;
+                top: 50px;
                 flex-direction: column;
                 padding-top: 2.638vw !important;
             }

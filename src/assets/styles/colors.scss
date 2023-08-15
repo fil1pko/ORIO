@@ -48,7 +48,7 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
 
 // home h1
 @mixin home {
-    font-size: clamp(1rem,2.083vw,4.9991875rem);
+    font-size: clamp(2rem,2.083vw,4.9991875rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -82,4 +82,5 @@ $glowingShadow: 0px 0px 5.849999904632568px 0px #FFF, 0px 0px 11.699999809265137
     background: $white;
     height: clamp(0.0625rem,0.052vw,0.1248125rem);
 }
+
 

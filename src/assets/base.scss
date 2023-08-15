@@ -13,13 +13,9 @@
 html{
   scroll-behavior: smooth;
   background: $lightBlue;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-  // overflow-y: scroll;
-
-  // overflow: scroll;   
+  // overflow-x: hidden;  
   -webkit-overflow-scrolling: touch;   
-  overflow-y: auto;   
+  // overflow-y: auto;   
 }
 
 body {
@@ -29,7 +25,8 @@ body {
   line-height: normal;
   font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
+  // overflow-x: hidden;
+  // overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   section{

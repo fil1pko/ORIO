@@ -1,6 +1,8 @@
 <template>
     <header>
+      <!-- logo for smaller devices -->
       <img class="img-tb" src="../../assets/pictures/logo.svg" alt="logo">
+      <!-- navbar -->
       <nav :class="{ 'your-class-name': isClassAdded }">
       <!-- left menu side -->
       <ul>

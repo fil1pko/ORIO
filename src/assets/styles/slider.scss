@@ -16,3 +16,26 @@
 .swiper-button-prev{
     display: none;
 } 
+
+@media screen and (max-width: 1025px){
+    .mySwiper{
+        width: 100vw !important;
+        height: auto;
+        right: 0;
+        img{
+            width: 100vw !important;
+            height: inherit;
+        }
+    }
+}
+
+@media screen and (max-width: 660px){
+    .mySwiper{
+       height: 125vw !important;
+       width: auto;
+       img{
+        height: 125vw;
+        width: auto !important;
+       }
+    }
+}
