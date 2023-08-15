@@ -15,13 +15,17 @@
                 <h3>{{ $t('question') }}</h3>
                 <div class="certificates">
 
-                    <a target="_blank" href="../../../public/certificate.png"><img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                    <div>
+                        <a target="_blank" href="../../../public/certificate.png"><img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
 
-                    <a target="_blank" href="../../../public/certificate.png"> <img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                        <a target="_blank" href="../../../public/certificate.png"> <img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                    </div>
 
-                    <a target="_blank" href="../../../public/certificate.png"><img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                    <div>
+                        <a target="_blank" href="../../../public/certificate.png"><img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
                     
-                    <a target="_blank" href="../../../public/certificate.png"> <img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                        <a target="_blank" href="../../../public/certificate.png"> <img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
+                    </div>
                 </div>
             </div>
         </div>

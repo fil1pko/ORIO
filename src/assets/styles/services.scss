@@ -30,7 +30,7 @@
             box-shadow: $defaultBoxShadow;
             .card-heading{
                 padding-top: 3.073vw;
-                padding-bottom: 2.292vw;
+                padding-bottom: 3vw;
                 height: 3.125vw;
                 display: flex;
                 align-items: center;
@@ -53,7 +53,7 @@
                 margin: 0 auto;
                 @include text;
                 max-width: 13.125vw;
-                text-align: center;
+                text-align: justify;
             }
         }
     }
@@ -67,13 +67,13 @@
         }
         .card-wraper{
             width: 69.185vw;
+            margin-bottom: 4vw;
             .card{
                 margin-top: 7.554vw;
                 width: 29.616vw;
                 height: 43.046vw;
                 .card-heading{
                     width: 26.499vw;
-                    // margin-top: 2.638vw;
                     padding-top: 5vw;
                     padding-bottom: 4vw;
                     img{
@@ -82,7 +82,7 @@
                     }
                 }
                 p{
-                    max-width: 26.499vw;
+                    max-width: 24.499vw;
                 }
             }
         }
@@ -94,15 +94,30 @@
     .card-wraper{
         flex-direction: column;
         justify-content: center;
+        padding-bottom: 15vw !important;
         .card-wraper2{
             display: flex !important;
             flex-direction: column;
             .card{
                 margin: 0 auto;
                 width: 66.250vw !important;
-                height: 96.563vw !important;
+                height: 76.563vw !important;
                 p{
-                    max-width: 60.313vw !important;
+                   display: none;
+                }
+                .card-heading{
+                    width: 100% !important;
+                    height: auto;
+                    flex-direction: column;
+                    text-align: center;
+                    position: relative;
+                    top: 10vw;
+                    h3{
+                        width: 56.250vw !important;
+                    }
+                    img{
+                        width: 13vw !important;
+                    }
                 }
             }
         }

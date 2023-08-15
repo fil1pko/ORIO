@@ -3,7 +3,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -13,20 +14,18 @@
 html{
   scroll-behavior: smooth;
   background: $lightBlue;
-  // overflow-x: hidden;  
   -webkit-overflow-scrolling: touch;   
-  // overflow-y: auto;   
 }
 
 body {
   min-height: 100vh;
   color: $white;
+  -webkit-transition: color 0.5s, background-color 0.5s;
+  -o-transition: color 0.5s, background-color 0.5s;
   transition: color 0.5s, background-color 0.5s;
   line-height: normal;
   font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
-  // overflow-x: hidden;
-  // overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   section{

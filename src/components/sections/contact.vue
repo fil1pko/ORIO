@@ -46,7 +46,7 @@
         </div>
 
         <!-- copyright -->
-        <div class="last"><p>© 2023 made by <a href="https://github.com/fil1pko">RU3Y</a></p></div>
+        <div class="last"><p>© 2023 made by <a href="https://github.com/fil1pko">RU3Y</a>  All Rights Reserverd</p></div>
     </div>
 </template>
 

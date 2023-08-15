@@ -60,6 +60,70 @@
                     height: 11.771vw;
                     cursor: pointer;
                 }
+                div{
+                    display: flex;
+                    gap: 2.917vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px){
+    #about{
+        gap: 4.436vw !important;
+        .about-wraper{
+            width: 65.707vw;
+            article{
+                width: 100%;
+                left: 0;
+                padding: 30px;
+                height: 21.103vw;
+                p{
+                    width: 46.763vw;
+                }
+            }
+            .certificates-wraper{
+                width: 100%;
+                height: 71.942vw;
+                top: 0;
+                left: 0;
+                margin-top: 4.556vw;
+                h3{
+                    display: none;
+                }
+                .certificates{
+                    gap: 9.592vw;
+                    padding-top: 3vw;
+                    div{
+                        flex-direction: column;
+                        gap: 6.835vw;
+                    }
+                    .certificate{
+                        width: 18.825vw;
+                        height: 27.098vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 660px){
+    #about{
+        .about-wraper{
+            width: 90vw;
+            article{
+                padding: 20px;
+                height: 40vw;
+                p{
+                    width: 80vw;
+                }
+            }
+            .certificates-wraper{
+                .certificates{
+                    gap: 15vw;
+                }
             }
         }
     }

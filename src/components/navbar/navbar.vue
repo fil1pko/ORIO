@@ -39,7 +39,8 @@ export default {
   data() {
     return {
       activeSection: 'home',
-      isClassAdded: false
+      isClassAdded: false,
+      offset: 600
     };
   },
   methods: {
@@ -54,7 +55,7 @@ export default {
     },
     handleScroll() {
       const sections = ['home', 'about', 'services', 'contact'];
-      const offset = 600;
+      const offset = this.offset; // Use the updated offset value
 
       for (const sectionId of sections) {
         const target = document.getElementById(sectionId);
@@ -67,6 +68,22 @@ export default {
         }
       }
     },
+  },
+  watch: {
+    '$vuetify.breakpoint.width'(newWidth) {
+      if (newWidth < 660) {
+        this.offset = 300; 
+      } else {
+        this.offset = 600; 
+      }
+    },
+    '$data.offset'(newOffset) {
+      if (window.innerWidth < 660) {
+        this.offset = 90;
+      } else {
+        this.offset = newOffset;
+      }
+    }
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll);

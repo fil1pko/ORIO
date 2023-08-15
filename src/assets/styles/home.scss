@@ -67,6 +67,7 @@
             border: 1px solid $white;
             width: clamp(2rem,2.083vw,4.999rem);
             height: clamp(2rem,2.083vw,4.999rem);
+            text-align: center;
             &:hover{
                 color: $grey;
                 border: 1px solid $grey;
@@ -84,11 +85,11 @@
         align-items: center;
         article{
             width: 72.662vw !important;
-            height: clamp(14.438rem,34.412vw,22.024rem) !important;
+            height: clamp(10.438rem,34.412vw,22.024rem) !important;
             left: 0 !important;
             top: 8vw;
             h1{
-                padding-top: 3.357vw;
+                padding-top: 5.357vw;
                 margin-left: 4vw !important;
             }
             p{
@@ -98,8 +99,7 @@
                 margin-top: 1vw;
             }
             a{
-                margin-left: 4vw !important;
-                padding: 0.565vw 1.033vw 0.565vw 1.033vw !important;
+                display: none;
             }
         }
         img{
@@ -117,6 +117,7 @@
             width: 90.938vw !important;
             top: 45vw;
             h1{
+                padding-top: 3.357vw;
                 font-size: 5vw !important;
             }
             p{
