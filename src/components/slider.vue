@@ -1,4 +1,5 @@
 <template>
+  <!-- Copyright (c) 2019 Vladimir Kharlampidi -->
     <swiper
       :spaceBetween="0"
       :centeredSlides="false"

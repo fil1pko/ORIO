@@ -6,6 +6,12 @@
   </template>
   
   <script>
+  /*
+ * ORION-trust
+ * Copyright (c) 2023 RU3Y
+ * This code is licensed under the MIT License.
+ * Visit https://opensource.org/licenses/MIT for license details.
+ */
     export default {
       data: () => {
         return {

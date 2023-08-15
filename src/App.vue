@@ -6,7 +6,13 @@ import about from './components/sections/about.vue'
 import contact from './components/sections/contact.vue'
 import PageLoader from './components/PageLoader.vue'
 
-
+/*
+ * ORION-trust
+ * Copyright (c) 2023 RU3Y
+ * This code is licensed under the MIT License.
+ * Visit https://opensource.org/licenses/MIT for license details.
+ */
+ 
 </script>
 
 <template>
