@@ -47,7 +47,7 @@
             position: relative;
             right: 14.583vw;
             z-index: 30;
-            width: clamp(9.375rem,7.813vw,18.75rem);
+            width: clamp(6.375rem,7.813vw,18.75rem);
             height: auto;
         }
     }
@@ -84,7 +84,7 @@
         align-items: center;
         article{
             width: 72.662vw !important;
-            height: clamp(9.438rem,34.412vw,22.024rem) !important;
+            height: clamp(14.438rem,34.412vw,22.024rem) !important;
             left: 0 !important;
             top: 8vw;
             h1{
@@ -104,13 +104,27 @@
         }
         img{
             right: 0 !important;
-            bottom: 9vw;
+            bottom: 6vw;
         }
     }
 }
 
 @media screen and (max-width: 660px){
     .home-wraper{
-        top: 2vw;
+        top: 0 !important;
+        max-height: 100vh;
+        article{
+            width: 90.938vw !important;
+            top: 45vw;
+            h1{
+                font-size: 5vw !important;
+            }
+            p{
+                max-width: 79.375vw !important;
+            }
+        }
+        img{
+            bottom:  50vw;
+        }
     }
 }
