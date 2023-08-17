@@ -35,7 +35,7 @@
         .card{
             position: relative;
             width: 16.771vw;
-            height: 24.375vw;
+            height: 22.375vw;
             background: $textBGdark;
             -webkit-box-shadow: $defaultBoxShadow;
                     box-shadow: $defaultBoxShadow;
@@ -68,7 +68,8 @@
                 margin: 0 auto;
                 @include text;
                 max-width: 13.125vw;
-                text-align: justify;
+                text-align: center;
+                line-height: 1.4vw;
             }
         }
     }

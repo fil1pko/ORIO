@@ -46,8 +46,8 @@
                         <li><p>{{ $t('ico') }}</p></li>
                     </ul>
                     <ul>
-                        <li><p>{{ $t('dic') }}</p></li>
-                        <li><p>{{ $t('icdph') }}</p></li>
+                        <li><p style="white-space: nowrap;">{{ $t('dic') }}</p></li>
+                        <li><p style="white-space: nowrap;">{{ $t('icdph') }}</p></li>
                     </ul>
                 </div>
             </div>
