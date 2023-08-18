@@ -49,36 +49,47 @@
             position: relative;
             left: 9.375vw;
             top: 1.927vw;
-            h3{
-                @include abouth3;
-                position: relative;
-                top: 0.833vw;
-                left: 1.875vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .nice-image{
+                position: static;
+                max-height: 90%;
+                max-width: 95%;
             }
-            .certificates{
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                gap: 2.917vw;
-                -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                        justify-content: center;
-                padding-top: 0.99vw;
-                position: relative;
-                top: 0.885vw;
-                .certificate{
-                    position: static;
-                    width: 8.177vw;
-                    height: 11.771vw;
-                    cursor: pointer;
-                }
-                div{
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: flex;
-                    gap: 2.917vw;
-                }
-            }
+
+            //certificates scss uncomment if needed 
+
+            // h3{
+            //     @include abouth3;
+            //     position: relative;
+            //     top: 0.833vw;
+            //     left: 1.875vw;
+            // }
+            // .certificates{
+            //     display: -webkit-box;
+            //     display: -ms-flexbox;
+            //     display: flex;
+            //     gap: 2.917vw;
+            //     -webkit-box-pack: center;
+            //         -ms-flex-pack: center;
+            //             justify-content: center;
+            //     padding-top: 0.99vw;
+            //     position: relative;
+            //     top: 0.885vw;
+            //     .certificate{
+            //         position: static;
+            //         width: 8.177vw;
+            //         height: 11.771vw;
+            //         cursor: pointer;
+            //     }
+            //     div{
+            //         display: -webkit-box;
+            //         display: -ms-flexbox;
+            //         display: flex;
+            //         gap: 2.917vw;
+            //     }
+            // }
         }
     }
 }
@@ -99,28 +110,32 @@
             }
             .certificates-wraper{
                 width: 100%;
-                height: 71.942vw;
+                // height: 71.942vw;
+                height: 31.942vw;
                 top: 0;
                 left: 0;
                 margin-top: 4.556vw;
-                h3{
-                    display: none;
-                }
-                .certificates{
-                    gap: 9.592vw;
-                    padding-top: 3vw;
-                    div{
-                        -webkit-box-orient: vertical;
-                        -webkit-box-direction: normal;
-                            -ms-flex-direction: column;
-                                flex-direction: column;
-                        gap: 6.835vw;
-                    }
-                    .certificate{
-                        width: 18.825vw;
-                        height: 27.098vw;
-                    }
-                }
+
+                 //certificates scss uncomment if needed 
+
+                // h3{
+                //     display: none;
+                // }
+                // .certificates{
+                //     gap: 9.592vw;
+                //     padding-top: 3vw;
+                //     div{
+                //         -webkit-box-orient: vertical;
+                //         -webkit-box-direction: normal;
+                //             -ms-flex-direction: column;
+                //                 flex-direction: column;
+                //         gap: 6.835vw;
+                //     }
+                //     .certificate{
+                //         width: 18.825vw;
+                //         height: 27.098vw;
+                //     }
+                // }
             }
         }
     }
@@ -137,11 +152,12 @@
                     width: 80vw;
                 }
             }
-            .certificates-wraper{
-                .certificates{
-                    gap: 15vw;
-                }
-            }
+            // .certificates-wraper{
+                // height: 55vw;
+                // .certificates{
+                //     gap: 15vw;
+                // }
+            // }
         }
     }
 }

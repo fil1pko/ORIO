@@ -21,7 +21,12 @@
 
             <!-- certificates -->
             <div class="certificates-wraper">
-                <h3>{{ $t('question') }}</h3>
+                <img class="nice-image" src="../../assets/pictures/about.png" alt="very nice image">
+
+
+                <!-- uncomment this section if any certificates needed -->
+
+                <!-- <h3>{{ $t('question') }}</h3>
                 <div class="certificates">
 
                     <div>
@@ -35,7 +40,7 @@
                     
                         <a target="_blank" href="../../../public/certificate.png"> <img class="certificate" src="../../assets/pictures/certificate.png" alt="name of certificate"></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
