@@ -99,6 +99,7 @@
                 }
                 p{
                     max-width: 24.499vw;
+                    line-height: 2.5vw;
                 }
             }
         }
@@ -128,6 +129,8 @@
                 margin: 0 auto;
                 width: 66.250vw !important;
                 height: 66.563vw !important;
+                display: grid;
+                place-items: center;
                 p{
                    display: none;
                 }
@@ -140,7 +143,7 @@
                             flex-direction: column;
                     text-align: center;
                     position: relative;
-                    top: 10vw;
+                    bottom: 10vw;
                     h3{
                         width: 56.250vw !important;
                     }
