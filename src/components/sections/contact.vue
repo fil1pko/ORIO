@@ -20,16 +20,16 @@
                 <div class="information-wraper">
                     <ul>
                         <li><p>{{ $t('name') }}</p></li>
-                        <li><a href="tel:9876765678">
+                        <!-- <li><a href="tel:9876765678">
                         <img src="../../assets/pictures/phone.svg" alt="phone icon"> {{ $t('phone1') }}</a></li>
                         <li><a href="tel:9876765678">
-                        <img src="../../assets/pictures/phone.svg" alt="phone icon">{{ $t('phone2') }}</a></li>
+                        <img src="../../assets/pictures/phone.svg" alt="phone icon">{{ $t('phone2') }}</a></li> -->
                     </ul>
                     <ul>
                         <!-- <li><a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><img src="../../assets/pictures/email.svg" alt="email icon">{{ $t('gmail') }}</a></li> -->
                         <li><a href="mailto:stano@oriontrust.eu? subject=subject text"><img src="../../assets/pictures/email.svg" alt="email icon">{{ $t('gmail') }}</a></li>
-                        <li><a href="#"><img src="../../assets/pictures/instagram.svg" alt="instagram icon">{{ $t('instagram') }}</a></li>
-                        <li><a href="#"><img src="../../assets/pictures/facebook.svg" alt="facebook icon"> {{ $t('facebook') }}</a></li>
+                        <!-- <li><a href="#"><img src="../../assets/pictures/instagram.svg" alt="instagram icon">{{ $t('instagram') }}</a></li> -->
+                        <!-- <li><a href="#"><img src="../../assets/pictures/facebook.svg" alt="facebook icon"> {{ $t('facebook') }}</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -42,11 +42,11 @@
                 <!-- container for information -->
                 <div class="information-wraper">
                     <ul>
-                        <li><p>{{ $t('name2') }}</p></li>    
+                        <li><p><img src="../../assets/pictures/logo.svg" alt="logo">{{ $t('name2') }}</p></li>    
                         <li><p><img src="../../assets/pictures/location.svg" alt="location icon">{{ $t('location') }}</p></li>
-                        <li><p>{{ $t('ico') }}</p></li>
                     </ul>
                     <ul>
+                        <li><p>{{ $t('ico') }}</p></li>
                         <li><p style="white-space: nowrap;">{{ $t('dic') }}</p></li>
                         <li><p style="white-space: nowrap;">{{ $t('icdph') }}</p></li>
                     </ul>
