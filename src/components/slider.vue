@@ -14,9 +14,9 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img src="../assets/pictures/cameras1.jpg" alt="camera photo"></swiper-slide>
-      <swiper-slide><img src="../assets/pictures/cameras2.jpg" alt="camera photo"></swiper-slide>
-      <swiper-slide><img src="../assets/pictures/cameras3.jpg" alt="camera photo"></swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras1.webp" alt="camera photo"></swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras2.webp" alt="camera photo"></swiper-slide>
+      <swiper-slide><img src="../assets/pictures/cameras3.webp" alt="camera photo"></swiper-slide>
     </swiper>
   </template>
   <script>
